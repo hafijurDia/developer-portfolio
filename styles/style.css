@@ -22,11 +22,18 @@
     border-radius: 5px;
 }
 
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
 /* header style */
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
 }
 
 nav h2 {
@@ -94,4 +101,54 @@ nav ul li {
     left: 978px;
     top: 161px;
 
+}
+
+/* main */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin: 100px 0px;
+
+}
+
+.section-tile {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.dev-info ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.dev-info ul li{
+    list-style: none;
+    text-align: center;
+font-size: 20px;
+line-height: 30px;
+color: #757575;
+}
+.dev-info ul li span{
+    display: block;
+    font-weight: 700;
+    color: #474747;
 }
