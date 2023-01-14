@@ -135,20 +135,126 @@ main {
     color: #757575;
     margin-bottom: 30px;
 }
-.dev-info ul{
+
+.dev-info ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.dev-info ul li{
+
+.dev-info ul li {
     list-style: none;
     text-align: center;
-font-size: 20px;
-line-height: 30px;
-color: #757575;
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
 }
-.dev-info ul li span{
+
+.dev-info ul li span {
     display: block;
     font-weight: 700;
     color: #474747;
+}
+
+/* what i do */
+.skills-container {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+
+.skill {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill img {
+    margin-bottom: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #181818;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* resume style */
+.education-experience {
+    display: flex;
+    gap: 25px;
+}
+
+.education {
+    
+}
+
+.title4 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+}
+
+.edu-details {
+    padding-right: 50px;
+    border-bottom: 1px solid #D1D1D1;
+    padding: 25px 0px;
+}
+.edu-details.last{
+    border-bottom: 0px;
+}
+.title5 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+}
+
+.title6 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin: 10px 0px 20px 0px;
+
+}
+
+.details {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.resume-btn{
+    text-align: center;
+    margin: 30px 0px;
+}
+/* contact style */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact form{
+    margin-top: 20px;
+}
+.contact input[type='text'], input[type='email'], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    background: #ffffff;
+    width: 100%;
+    padding: 18px 30px;
+}
+.details.p20-p30{
+    padding: 20px 0px 30px 0px;
 }
